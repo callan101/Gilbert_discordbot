@@ -17,7 +17,7 @@ client = discord.Client(intents=intents)
 testnum = 0
 testnum = pickle.load(open("testnumgilbert","rb"))
 
-quotes = ["this is a quote", "squishing cum into my old wallet so i can find it by smell if i lose it", "youre a walnut"]
+quotes = ["this is a quote", "youre a walnut"]
 quotes = pickle.load(open("gilbertquotes","rb"))
 
 todo = ["credits","music","words"]
@@ -164,7 +164,7 @@ async def on_message(m):
 	if msg.startswith("gilbert if you say"):
 		headers = {
 			'x-rapidapi-key':
-			"eada209357msh8f365a92ad33226p178e88jsn7f5d0e81886e",'x-rapidapi-host': "wordsapiv1.p.rapidapi.com"
+			"redacted",'x-rapidapi-host': "wordsapiv1.p.rapidapi.com"
 			}
 		url1 = "https://wordsapiv1.p.rapidapi.com/words/"
 		querystring = {"random":"true"}

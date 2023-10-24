@@ -1,0 +1,23 @@
+{
+  "name": "gilbert_discordbot",
+  "version": "1.0.0",
+  "description": "Created in January of 2021 by Callan Sheldon",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callan101/Gilbert_discordbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/callan101/Gilbert_discordbot/issues"
+  },
+  "homepage": "https://github.com/callan101/Gilbert_discordbot#readme",
+  "dependencies": {
+    "discord.js": "^14.13.0"
+  }
+}

@@ -15,7 +15,7 @@ const commands = [{
   description: 'ping pong',
   }];
 
-const rest = new REST({ version: '9' }).setToken('NjU3MTAyMTA2MDA3OTYxNjIw.GpTcBX.SXV8uWcCbtdwsHLlRwEO9L8ZSrg4gPvKyxkmyM');
+const rest = new REST({ version: '9' }).setToken('TOKEN');
 
 (async () => {
   try {
@@ -54,9 +54,11 @@ client.on('interactionCreate', async (interaction) => {
 
     await interaction.reply('pong ' + client.ws.ping); // client.ws.ping gives the bot's latency
   }
+
+  
 });
 
-client.login('NjU3MTAyMTA2MDA3OTYxNjIw.GpTcBX.SXV8uWcCbtdwsHLlRwEO9L8ZSrg4gPvKyxkmyM');
+client.login('token');
 
 const rl = readline.createInterface({
   input: process.stdin,
